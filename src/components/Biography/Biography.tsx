@@ -4,7 +4,7 @@ const Biography = () => {
   return (
     <div>
       <h2 className='text-2xl mb-4'>¡Hola! Mi nombre es Sebastian Barrientos y soy programador Full Stack. </h2><br />
-      <div className=' text-justify flex flex-col items-center text-justify gap-4 border border-2 rounded-md py-1 px-2 '>
+      <div className=' text-justify flex flex-col items-center gap-4 border border-2 rounded-md py-1 px-2 '>
         <p className="px-2">Hace ya más de 2 años que empecé mi camino como desarrollador. Tengo conocimientos en Python, JavaScript, SQL y Mongoose, entre otras tecnologías y lenguajes.</p>
         <p className="px-2">Era abogado, me recibí en 2020 pero tras un tiempo trabajando de ello, vi que no era mi vocación. Tras mucho autodescubrimiento opté por la programación y me encanta.
         </p>
