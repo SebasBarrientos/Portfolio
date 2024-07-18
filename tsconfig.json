@@ -13,6 +13,7 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
+    "noEmit": true,  
     "allowImportingTsExtensions": true
   },
   "include": [
