@@ -3,7 +3,7 @@ import './App.css'
 import Biography from "@/components/Biography/Biography";
 import MyWork from "@/components/MyWork/MyWork";
 import Img from "@/components/Img/Img";
-import { ThemeProvider } from './components/theme-provider';
+import { ThemeProvider } from './components/theme-provider.tsx';
 
 
 export default function Home() {
