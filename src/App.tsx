@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <div>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-        <div className='m-3'>
-          <div >
+        <div className='m-3 mt-6 flex flex-col justify-center items-center'>
+          <div className= "">
             <Img />
           </div>
-          <div className="flex flex-col justify-center items-center gap-4 p-4">
+          <div className="flex flex-col justify-center items-center gap-4 p-4 max-w-4xl">
             <Biography />
-            <div className="flex flex-wrap gap-4 p-4">
+            <div className="flex flex-wrap gap-4 max-w-4xl p-4 ">
               <MyWork />
             </div>
           </div>
