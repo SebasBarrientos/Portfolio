@@ -11,6 +11,12 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
+    title: "OpenIA Chatbot Script",
+    description: "Chatbot Python con OpenAI API",
+    content: "Chatbot interactivo usando OpenAI GPT-4o-mini con Python, variables de entorno para API key y control de versiones Git.",
+    link: "https://github.com/SebasBarrientos/OpenAIPythonScript"
+  },
+  {
     title: "MovieMatch",
     description: "Proyecto para resolver una cuestion diaria, que vemos hoy?",
     content: "MovieMatch es una app interactiva que ayuda a decidir películas rápidamente, usando Next.js, TypeScript, Tailwind CSS y WebSockets para comunicación en tiempo real.",
