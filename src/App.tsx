@@ -1,7 +1,7 @@
 
 import './App.css'
 import Biography from "@/components/Biography/Biography";
-import MyWork from "@/components/MyWork/MyWork";
+import MyWork from "@/components/ProjectCards/ProjectCards";
 import Img from "@/components/Img/Img";
 import { ThemeProvider } from './components/theme-provider';
 import { ModeToggle } from './components/mode-toggle';
@@ -14,7 +14,6 @@ export default function Home() {
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <div className='flex justify-end m-4'>
           <ModeToggle />
-
         </div>
         <div className='m-3 flex flex-col justify-center items-center'>
           <div className="">
