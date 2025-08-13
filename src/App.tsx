@@ -10,7 +10,7 @@ import { Button } from './components/ui/button';
 
 export default function Home() {
   return (
-    <div>
+    <div className='m-5'>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <div className='flex justify-end m-4'>
           <ModeToggle />
